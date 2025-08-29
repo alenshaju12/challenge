@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-23fc6213d9c7bb03b36b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "demo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo_uninstall-51543c780795f8aa75be.json",
+					"name" : "demo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_manager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_manager-c155edba088725d5c658.json",
+					"name" : "lifecycle_manager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_publisher-013c3a8a81108b0c3ee9.json",
+					"name" : "lifecycle_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lifecycle_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lifecycle_subscriber-722945fe764fdb57c57d.json",
+					"name" : "lifecycle_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1cd2eccb077cbdfd94bc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/alen/Desktop/Challenge_WS/build/demo",
+		"source" : "/home/alen/Desktop/Challenge_WS/src/demo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

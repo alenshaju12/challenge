@@ -1,0 +1,2 @@
+Invoking command in '/home/alen/Desktop/Challenge_WS/build/demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alen/Desktop/Challenge_WS/build/demo -- -j16 -l16
+Invoked command in '/home/alen/Desktop/Challenge_WS/build/demo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alen/Desktop/Challenge_WS/build/demo -- -j16 -l16

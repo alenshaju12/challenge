@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target lifecycle_manager[0m
+[35m[1mConsolidate compiler generated dependencies of target lifecycle_subscriber[0m
+[35m[1mConsolidate compiler generated dependencies of target lifecycle_publisher[0m
+[ 33%] Built target lifecycle_manager
+[ 66%] [32mBuilding CXX object CMakeFiles/lifecycle_subscriber.dir/src/lifecycle_subscriber.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/lifecycle_publisher.dir/src/lifecycle_publisher.cpp.o[0m
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:[m[K In constructor ‘[01m[KLifecyclePublisher::LifecyclePublisher()[m[K’:
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:16:91:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::NodeOptions[m[K’ has no member named ‘[01m[Knamespace_[m[K’
+   16 | _lifecycle::LifecycleNode("publisher",rclcpp::NodeOptions().[01;31m[Knamespace_[m[K("/demo"))
+      |                                                             [01;31m[K^~~~~~~~~~[m[K
+
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_subscriber.cpp:[m[K In constructor ‘[01m[KLifecycleSubscriber::LifecycleSubscriber()[m[K’:
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_subscriber.cpp:13:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::NodeOptions[m[K’ has no member named ‘[01m[Knamespace_[m[K’
+   13 |   : rclcpp_lifecycle::LifecycleNode("subscriber", rclcpp::NodeOptions().[01;31m[Knamespace_[m[K("/demo")),
+      |                                                                         [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lifecycle_publisher.dir/build.make:76: CMakeFiles/lifecycle_publisher.dir/src/lifecycle_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/lifecycle_publisher.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/lifecycle_subscriber.dir/build.make:76: CMakeFiles/lifecycle_subscriber.dir/src/lifecycle_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/lifecycle_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

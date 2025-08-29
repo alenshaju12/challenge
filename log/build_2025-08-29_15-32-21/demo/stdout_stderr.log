@@ -1,0 +1,285 @@
+[35m[1mConsolidate compiler generated dependencies of target lifecycle_subscriber[0m
+[35m[1mConsolidate compiler generated dependencies of target lifecycle_publisher[0m
+[ 33%] Built target lifecycle_manager
+[ 50%] [32mBuilding CXX object CMakeFiles/lifecycle_subscriber.dir/src/lifecycle_subscriber.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/lifecycle_publisher.dir/src/lifecycle_publisher.cpp.o[0m
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:24:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kthis[m[K’
+   24 |     [01;31m[Kthis[m[K->declare_parameter<double>("publish_rate_hz", 2.0);
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:25:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kthis[m[K’
+   25 |     [01;31m[Kthis[m[K->declare_parameter<std::string>("message_text", "hello from lifecycle publisher");
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:26:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   26 |   }
+      |    [01;31m[K^[m[K
+      |    [32m[K;[m[K
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:[m[K In constructor ‘[01m[KLifecyclePublisher::LifecyclePublisher()[m[K’:
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:16:91:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::NodeOptions[m[K’ has no member named ‘[01m[Knamespace_[m[K’
+   16 | _lifecycle::LifecycleNode("publisher",rclcpp::NodeOptions().[01;31m[Knamespace_[m[K("/demo"))LifecyclePublisher()
+      |                                                             [01;31m[K^~~~~~~~~~[m[K
+
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:16:111:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KLifecyclePublisher[m[K’
+   16 | eNode("publisher",rclcpp::NodeOptions().namespace_("/demo"))[01;31m[KLifecyclePublisher[m[K()
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:[m[K At global scope:
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:28:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprotected[m[K’
+   28 | [01;31m[Kprotected[m[K:
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:54:63:[m[K [01;31m[Kerror: [m[Kvirt-specifiers in ‘[01m[Kon_activate[m[K’ not allowed outside a class definition
+   54 |   CallbackReturn on_activate(const rclcpp_lifecycle::State &) [01;31m[Koverride[m[K
+      |                                                               [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:4[m[K:
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:[m[K In function ‘[01m[KCallbackReturn on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:56:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+   56 |     RCLCPP_INFO([01;31m[Kget_logger[m[K(), "Activating publisher...");
+      |                 [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:4[m[K:
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:56:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   56 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Activating publisher...");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:56:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   56 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Activating publisher...");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:56:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   56 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Activating publisher...");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:57:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   57 |     [01;31m[Kpublisher_[m[K->on_activate();
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:58:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   58 |     [01;31m[Ktimer_[m[K->reset();
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ktimer_t[m[K
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:[m[K At global scope:
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:62:65:[m[K [01;31m[Kerror: [m[Kvirt-specifiers in ‘[01m[Kon_deactivate[m[K’ not allowed outside a class definition
+   62 |  CallbackReturn on_deactivate(const rclcpp_lifecycle::State &) [01;31m[Koverride[m[K
+      |                                                                [01;31m[K^~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:4[m[K:
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:[m[K In function ‘[01m[KCallbackReturn on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:64:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+   64 |     RCLCPP_INFO([01;31m[Kget_logger[m[K(), "Deactivating publisher...");
+      |                 [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:4[m[K:
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:64:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   64 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Deactivating publisher...");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:64:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   64 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Deactivating publisher...");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:64:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   64 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Deactivating publisher...");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:65:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   65 |     [01;31m[Kpublisher_[m[K->on_deactivate();
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:66:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   66 |     [01;31m[Ktimer_[m[K->cancel();
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ktimer_t[m[K
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:[m[K At global scope:
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:70:62:[m[K [01;31m[Kerror: [m[Kvirt-specifiers in ‘[01m[Kon_cleanup[m[K’ not allowed outside a class definition
+   70 |   CallbackReturn on_cleanup(const rclcpp_lifecycle::State &) [01;31m[Koverride[m[K
+      |                                                              [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:4[m[K:
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:[m[K In function ‘[01m[KCallbackReturn on_cleanup(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:72:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+   72 |     RCLCPP_INFO([01;31m[Kget_logger[m[K(), "Cleaning up publisher...");
+      |                 [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:4[m[K:
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:72:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   72 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Cleaning up publisher...");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:72:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   72 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Cleaning up publisher...");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:72:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   72 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Cleaning up publisher...");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:73:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   73 |     [01;31m[Kpublisher_[m[K.reset();
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:74:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   74 |     [01;31m[Ktimer_[m[K.reset();
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ktimer_t[m[K
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:[m[K At global scope:
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:78:63:[m[K [01;31m[Kerror: [m[Kvirt-specifiers in ‘[01m[Kon_shutdown[m[K’ not allowed outside a class definition
+   78 |   CallbackReturn on_shutdown(const rclcpp_lifecycle::State &) [01;31m[Koverride[m[K
+      |                                                               [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:4[m[K:
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:[m[K In function ‘[01m[KCallbackReturn on_shutdown(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:80:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+   80 |     RCLCPP_INFO([01;31m[Kget_logger[m[K(), "Shutting down publisher...");
+      |                 [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+  106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+      |                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:4[m[K:
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:80:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   80 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Shutting down publisher...");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:80:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   80 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Shutting down publisher...");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:80:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   80 |     [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Shutting down publisher...");
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:[m[K At global scope:
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:84:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+   84 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:87:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   87 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_subscriber.cpp:[m[K In constructor ‘[01m[KLifecycleSubscriber::LifecycleSubscriber()[m[K’:
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_subscriber.cpp:15:29:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   15 |       rclcpp::NodeOptions().[01;31m[Knamespace[m[K("/demo")  // correct syntax
+      |                             [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lifecycle_publisher.dir/build.make:76: CMakeFiles/lifecycle_publisher.dir/src/lifecycle_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/lifecycle_publisher.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/lifecycle_subscriber.dir/build.make:76: CMakeFiles/lifecycle_subscriber.dir/src/lifecycle_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/lifecycle_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

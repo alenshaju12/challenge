@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target lifecycle_manager[0m
+[ 33%] Built target lifecycle_subscriber
+[ 66%] Built target lifecycle_publisher
+[ 83%] [32mBuilding CXX object CMakeFiles/lifecycle_manager.dir/src/lifecycle_manager.cpp.o[0m

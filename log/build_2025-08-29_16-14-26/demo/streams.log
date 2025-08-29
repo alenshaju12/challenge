@@ -1,0 +1,30 @@
+[0.016s] Invoking command in '/home/alen/Desktop/Challenge_WS/build/demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alen/Desktop/Challenge_WS/build/demo -- -j16 -l16
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_manager[0m
+[0.073s] [ 66%] Built target lifecycle_publisher
+[0.073s] [ 66%] Built target lifecycle_subscriber
+[0.082s] [ 83%] [32mBuilding CXX object CMakeFiles/lifecycle_manager.dir/src/lifecycle_manager.cpp.o[0m
+[3.592s] [100%] [32m[1mLinking CXX executable lifecycle_manager[0m
+[3.796s] [100%] Built target lifecycle_manager
+[3.809s] Invoked command in '/home/alen/Desktop/Challenge_WS/build/demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/alen/Desktop/Challenge_WS/build/demo -- -j16 -l16
+[3.820s] Invoking command in '/home/alen/Desktop/Challenge_WS/build/demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alen/Desktop/Challenge_WS/build/demo
+[3.828s] -- Install configuration: ""
+[3.829s] -- Up-to-date: /home/alen/Desktop/Challenge_WS/install/demo/lib/demo/lifecycle_publisher
+[3.829s] -- Up-to-date: /home/alen/Desktop/Challenge_WS/install/demo/lib/demo/lifecycle_subscriber
+[3.829s] -- Installing: /home/alen/Desktop/Challenge_WS/install/demo/lib/demo/lifecycle_manager
+[3.831s] -- Set runtime path of "/home/alen/Desktop/Challenge_WS/install/demo/lib/demo/lifecycle_manager" to ""
+[3.831s] -- Up-to-date: /home/alen/Desktop/Challenge_WS/install/demo/share/ament_index/resource_index/package_run_dependencies/demo
+[3.832s] -- Up-to-date: /home/alen/Desktop/Challenge_WS/install/demo/share/ament_index/resource_index/parent_prefix_path/demo
+[3.832s] -- Up-to-date: /home/alen/Desktop/Challenge_WS/install/demo/share/demo/environment/ament_prefix_path.sh
+[3.832s] -- Up-to-date: /home/alen/Desktop/Challenge_WS/install/demo/share/demo/environment/ament_prefix_path.dsv
+[3.832s] -- Up-to-date: /home/alen/Desktop/Challenge_WS/install/demo/share/demo/environment/path.sh
+[3.832s] -- Up-to-date: /home/alen/Desktop/Challenge_WS/install/demo/share/demo/environment/path.dsv
+[3.832s] -- Up-to-date: /home/alen/Desktop/Challenge_WS/install/demo/share/demo/local_setup.bash
+[3.832s] -- Up-to-date: /home/alen/Desktop/Challenge_WS/install/demo/share/demo/local_setup.sh
+[3.832s] -- Up-to-date: /home/alen/Desktop/Challenge_WS/install/demo/share/demo/local_setup.zsh
+[3.833s] -- Up-to-date: /home/alen/Desktop/Challenge_WS/install/demo/share/demo/local_setup.dsv
+[3.833s] -- Installing: /home/alen/Desktop/Challenge_WS/install/demo/share/demo/package.dsv
+[3.833s] -- Up-to-date: /home/alen/Desktop/Challenge_WS/install/demo/share/ament_index/resource_index/packages/demo
+[3.833s] -- Up-to-date: /home/alen/Desktop/Challenge_WS/install/demo/share/demo/cmake/demoConfig.cmake
+[3.833s] -- Up-to-date: /home/alen/Desktop/Challenge_WS/install/demo/share/demo/cmake/demoConfig-version.cmake
+[3.833s] -- Up-to-date: /home/alen/Desktop/Challenge_WS/install/demo/share/demo/package.xml
+[3.835s] Invoked command in '/home/alen/Desktop/Challenge_WS/build/demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/alen/Desktop/Challenge_WS/build/demo

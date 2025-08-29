@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.000352] (demo) JobQueued: {'identifier': 'demo', 'dependencies': OrderedDict()}
+[0.000525] (demo) JobStarted: {'identifier': 'demo'}
+[0.008699] (demo) JobProgress: {'identifier': 'demo', 'progress': 'cmake'}
+[0.013734] (demo) JobProgress: {'identifier': 'demo', 'progress': 'build'}
+[0.014318] (demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alen/Desktop/Challenge_WS/build/demo', '--', '-j16', '-l16'], 'cwd': '/home/alen/Desktop/Challenge_WS/build/demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alen'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alen'), ('OLDPWD', '/home/alen/Desktop/Challenge_WS/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '2253'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/d1:@/tmp/.ICE-unix/2222,unix/d1:/tmp/.ICE-unix/2222'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/24b9e86e_c3a1_4b95_a05e_2fce4ebf3a77'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.62TDC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.164'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alen/Desktop/Challenge_WS/build/demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.062880] (demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lifecycle_publisher\x1b[0m\n'}
+[0.063071] (demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lifecycle_subscriber\x1b[0m\n'}
+[0.078267] (demo) StdoutLine: {'line': b'[ 33%] Built target lifecycle_manager\n'}
+[0.088936] (demo) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/lifecycle_subscriber.dir/src/lifecycle_subscriber.cpp.o\x1b[0m\n'}
+[0.089217] (demo) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/lifecycle_publisher.dir/src/lifecycle_publisher.cpp.o\x1b[0m\n'}
+[0.099451] (-) TimerEvent: {}
+[0.199867] (-) TimerEvent: {}
+[0.300271] (-) TimerEvent: {}
+[0.400902] (-) TimerEvent: {}
+[0.501286] (-) TimerEvent: {}
+[0.601666] (-) TimerEvent: {}
+[0.702008] (-) TimerEvent: {}
+[0.802302] (-) TimerEvent: {}
+[0.902691] (-) TimerEvent: {}
+[1.003252] (-) TimerEvent: {}
+[1.103666] (-) TimerEvent: {}
+[1.204275] (-) TimerEvent: {}
+[1.304660] (-) TimerEvent: {}
+[1.405096] (-) TimerEvent: {}
+[1.505634] (-) TimerEvent: {}
+[1.605992] (-) TimerEvent: {}
+[1.706403] (-) TimerEvent: {}
+[1.806826] (-) TimerEvent: {}
+[1.907222] (-) TimerEvent: {}
+[2.007617] (-) TimerEvent: {}
+[2.108015] (-) TimerEvent: {}
+[2.208373] (-) TimerEvent: {}
+[2.308795] (-) TimerEvent: {}
+[2.409221] (-) TimerEvent: {}
+[2.509620] (-) TimerEvent: {}
+[2.610054] (-) TimerEvent: {}
+[2.710470] (-) TimerEvent: {}
+[2.797006] (demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.797308] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.797444] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[2.797520] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[2.797579] (demo) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = LifecycleSubscriber; _Args = {}; _Tp = LifecycleSubscriber]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.797640] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = LifecycleSubscriber; _Args = {}; _Tp = LifecycleSubscriber; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<LifecycleSubscriber>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.797701] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = LifecycleSubscriber; _Alloc = std::allocator<LifecycleSubscriber>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.797761] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = LifecycleSubscriber; _Alloc = std::allocator<LifecycleSubscriber>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.797849] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<LifecycleSubscriber>; _Args = {}; _Tp = LifecycleSubscriber; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.797910] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<LifecycleSubscriber>; _Args = {}; _Tp = LifecycleSubscriber]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.797969] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = LifecycleSubscriber; _Alloc = std::allocator<LifecycleSubscriber>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.798029] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = LifecycleSubscriber; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.798088] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_subscriber.cpp:73:52:\x1b[m\x1b[K   required from here\n'}
+[2.798146] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLifecycleSubscriber::LifecycleSubscriber()\x1b[m\x1b[K\xe2\x80\x99 is private within this context\n'}
+[2.798203] (demo) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.798262] (demo) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.798320] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_subscriber.cpp:11:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared private here\n'}
+[2.798387] (demo) StderrLine: {'line': b'   11 | \x1b[01;36m\x1b[KLifecycleSubscriber\x1b[m\x1b[K()\n'}
+[2.798444] (demo) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.810627] (-) TimerEvent: {}
+[2.911055] (-) TimerEvent: {}
+[3.011457] (-) TimerEvent: {}
+[3.111861] (-) TimerEvent: {}
+[3.212249] (-) TimerEvent: {}
+[3.312587] (-) TimerEvent: {}
+[3.412999] (-) TimerEvent: {}
+[3.513386] (-) TimerEvent: {}
+[3.613763] (-) TimerEvent: {}
+[3.714129] (-) TimerEvent: {}
+[3.814591] (-) TimerEvent: {}
+[3.914974] (-) TimerEvent: {}
+[4.015315] (-) TimerEvent: {}
+[4.115712] (-) TimerEvent: {}
+[4.119211] (demo) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable lifecycle_publisher\x1b[0m\n'}
+[4.215892] (-) TimerEvent: {}
+[4.316384] (-) TimerEvent: {}
+[4.354082] (demo) StdoutLine: {'line': b'[ 83%] Built target lifecycle_publisher\n'}
+[4.416534] (-) TimerEvent: {}
+[4.452095] (demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lifecycle_subscriber.dir/build.make:76: CMakeFiles/lifecycle_subscriber.dir/src/lifecycle_subscriber.cpp.o] Error 1\n'}
+[4.452421] (demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/lifecycle_subscriber.dir/all] Error 2\n'}
+[4.453089] (demo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.456505] (demo) CommandEnded: {'returncode': 2}
+[4.467711] (demo) JobEnded: {'identifier': 'demo', 'rc': 2}
+[4.478306] (-) EventReactorShutdown: {}

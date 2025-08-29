@@ -1,0 +1,172 @@
+[0.000000] (-) TimerEvent: {}
+[0.000732] (demo) JobQueued: {'identifier': 'demo', 'dependencies': OrderedDict()}
+[0.000819] (demo) JobStarted: {'identifier': 'demo'}
+[0.009002] (demo) JobProgress: {'identifier': 'demo', 'progress': 'cmake'}
+[0.009781] (demo) Command: {'cmd': ['/usr/bin/cmake', '/home/alen/Desktop/Challenge_WS/src/demo', '-DCMAKE_INSTALL_PREFIX=/home/alen/Desktop/Challenge_WS/install/demo'], 'cwd': '/home/alen/Desktop/Challenge_WS/build/demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alen'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alen'), ('OLDPWD', '/home/alen/Desktop/Challenge_WS/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '2253'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/d1:@/tmp/.ICE-unix/2222,unix/d1:/tmp/.ICE-unix/2222'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/24b9e86e_c3a1_4b95_a05e_2fce4ebf3a77'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.62TDC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.164'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alen/Desktop/Challenge_WS/build/demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.087289] (demo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099583] (-) TimerEvent: {}
+[0.153316] (demo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.162340] (demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199748] (-) TimerEvent: {}
+[0.231113] (demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.237319] (demo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.237749] (demo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.238190] (demo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.241081] (demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299878] (-) TimerEvent: {}
+[0.329454] (demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.336347] (demo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.336581] (demo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.336893] (demo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.343287] (demo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400120] (-) TimerEvent: {}
+[0.486052] (demo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500196] (-) TimerEvent: {}
+[0.581659] (demo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.600304] (-) TimerEvent: {}
+[0.628875] (demo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.633875] (demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.642467] (demo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.655762] (demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.671948] (demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700470] (-) TimerEvent: {}
+[0.716618] (demo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.719332] (demo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800566] (-) TimerEvent: {}
+[0.816688] (demo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.842117] (demo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.881178] (demo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.889455] (demo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.900690] (-) TimerEvent: {}
+[0.959032] (demo) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.959403] (demo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.000792] (-) TimerEvent: {}
+[1.031745] (demo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.032686] (demo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.083120] (demo) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.14 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[1.100941] (-) TimerEvent: {}
+[1.105730] (demo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.177948] (demo) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.178138] (demo) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.178201] (demo) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.178901] (demo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.180136] (demo) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.180274] (demo) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.180681] (demo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.182130] (demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.196811] (demo) StdoutLine: {'line': b'-- Generating done\n'}
+[1.201055] (-) TimerEvent: {}
+[1.202364] (demo) StdoutLine: {'line': b'-- Build files have been written to: /home/alen/Desktop/Challenge_WS/build/demo\n'}
+[1.211543] (demo) CommandEnded: {'returncode': 0}
+[1.212088] (demo) JobProgress: {'identifier': 'demo', 'progress': 'build'}
+[1.213171] (demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alen/Desktop/Challenge_WS/build/demo', '--', '-j16', '-l16'], 'cwd': '/home/alen/Desktop/Challenge_WS/build/demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alen'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alen'), ('OLDPWD', '/home/alen/Desktop/Challenge_WS/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '2253'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/d1:@/tmp/.ICE-unix/2222,unix/d1:/tmp/.ICE-unix/2222'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/24b9e86e_c3a1_4b95_a05e_2fce4ebf3a77'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.62TDC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.164'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alen/Desktop/Challenge_WS/build/demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.262580] (demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lifecycle_subscriber.dir/src/lifecycle_subscriber.cpp.o\x1b[0m\n'}
+[1.262848] (demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lifecycle_publisher.dir/src/lifecycle_publisher.cpp.o\x1b[0m\n'}
+[1.262981] (demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lifecycle_manager.dir/src/lifecycle_manager.cpp.o\x1b[0m\n'}
+[1.301170] (-) TimerEvent: {}
+[1.401520] (-) TimerEvent: {}
+[1.501841] (-) TimerEvent: {}
+[1.602125] (-) TimerEvent: {}
+[1.702450] (-) TimerEvent: {}
+[1.802793] (-) TimerEvent: {}
+[1.903132] (-) TimerEvent: {}
+[2.003415] (-) TimerEvent: {}
+[2.103753] (-) TimerEvent: {}
+[2.204088] (-) TimerEvent: {}
+[2.304452] (-) TimerEvent: {}
+[2.404861] (-) TimerEvent: {}
+[2.505263] (-) TimerEvent: {}
+[2.605712] (-) TimerEvent: {}
+[2.706065] (-) TimerEvent: {}
+[2.806426] (-) TimerEvent: {}
+[2.906858] (-) TimerEvent: {}
+[3.007240] (-) TimerEvent: {}
+[3.107552] (-) TimerEvent: {}
+[3.207897] (-) TimerEvent: {}
+[3.308240] (-) TimerEvent: {}
+[3.408615] (-) TimerEvent: {}
+[3.509010] (-) TimerEvent: {}
+[3.609352] (-) TimerEvent: {}
+[3.709723] (-) TimerEvent: {}
+[3.810011] (-) TimerEvent: {}
+[3.910430] (-) TimerEvent: {}
+[4.010862] (-) TimerEvent: {}
+[4.111180] (-) TimerEvent: {}
+[4.211552] (-) TimerEvent: {}
+[4.311852] (-) TimerEvent: {}
+[4.412221] (-) TimerEvent: {}
+[4.512631] (-) TimerEvent: {}
+[4.520293] (demo) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable lifecycle_manager\x1b[0m\n'}
+[4.612759] (-) TimerEvent: {}
+[4.711636] (demo) StdoutLine: {'line': b'[ 66%] Built target lifecycle_manager\n'}
+[4.712833] (-) TimerEvent: {}
+[4.813089] (-) TimerEvent: {}
+[4.913427] (-) TimerEvent: {}
+[5.013796] (-) TimerEvent: {}
+[5.114084] (-) TimerEvent: {}
+[5.114303] (demo) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable lifecycle_publisher\x1b[0m\n'}
+[5.214206] (-) TimerEvent: {}
+[5.314606] (-) TimerEvent: {}
+[5.326456] (demo) StdoutLine: {'line': b'[ 83%] Built target lifecycle_publisher\n'}
+[5.414931] (-) TimerEvent: {}
+[5.515346] (-) TimerEvent: {}
+[5.615967] (-) TimerEvent: {}
+[5.716364] (-) TimerEvent: {}
+[5.816784] (-) TimerEvent: {}
+[5.917172] (-) TimerEvent: {}
+[6.017569] (-) TimerEvent: {}
+[6.117957] (-) TimerEvent: {}
+[6.218340] (-) TimerEvent: {}
+[6.318745] (-) TimerEvent: {}
+[6.419381] (-) TimerEvent: {}
+[6.519801] (-) TimerEvent: {}
+[6.620180] (-) TimerEvent: {}
+[6.720580] (-) TimerEvent: {}
+[6.820929] (-) TimerEvent: {}
+[6.921195] (-) TimerEvent: {}
+[7.021497] (-) TimerEvent: {}
+[7.121893] (-) TimerEvent: {}
+[7.222254] (-) TimerEvent: {}
+[7.322619] (-) TimerEvent: {}
+[7.422995] (-) TimerEvent: {}
+[7.523568] (-) TimerEvent: {}
+[7.623924] (-) TimerEvent: {}
+[7.724314] (-) TimerEvent: {}
+[7.825108] (-) TimerEvent: {}
+[7.925499] (-) TimerEvent: {}
+[8.025920] (-) TimerEvent: {}
+[8.082720] (demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lifecycle_subscriber\x1b[0m\n'}
+[8.126091] (-) TimerEvent: {}
+[8.226545] (-) TimerEvent: {}
+[8.326922] (-) TimerEvent: {}
+[8.427289] (-) TimerEvent: {}
+[8.524770] (demo) StdoutLine: {'line': b'[100%] Built target lifecycle_subscriber\n'}
+[8.527375] (-) TimerEvent: {}
+[8.536337] (demo) CommandEnded: {'returncode': 0}
+[8.537450] (demo) JobProgress: {'identifier': 'demo', 'progress': 'install'}
+[8.546502] (demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alen/Desktop/Challenge_WS/build/demo'], 'cwd': '/home/alen/Desktop/Challenge_WS/build/demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alen'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alen'), ('OLDPWD', '/home/alen/Desktop/Challenge_WS/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '2253'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/d1:@/tmp/.ICE-unix/2222,unix/d1:/tmp/.ICE-unix/2222'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/24b9e86e_c3a1_4b95_a05e_2fce4ebf3a77'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.62TDC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.164'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alen/Desktop/Challenge_WS/build/demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.553313] (demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.553634] (demo) StdoutLine: {'line': b'-- Installing: /home/alen/Desktop/Challenge_WS/install/demo/lib/demo/lifecycle_publisher\n'}
+[8.554893] (demo) StdoutLine: {'line': b'-- Set runtime path of "/home/alen/Desktop/Challenge_WS/install/demo/lib/demo/lifecycle_publisher" to ""\n'}
+[8.555087] (demo) StdoutLine: {'line': b'-- Installing: /home/alen/Desktop/Challenge_WS/install/demo/lib/demo/lifecycle_subscriber\n'}
+[8.558725] (demo) StdoutLine: {'line': b'-- Set runtime path of "/home/alen/Desktop/Challenge_WS/install/demo/lib/demo/lifecycle_subscriber" to ""\n'}
+[8.558969] (demo) StdoutLine: {'line': b'-- Installing: /home/alen/Desktop/Challenge_WS/install/demo/lib/demo/lifecycle_manager\n'}
+[8.559907] (demo) StdoutLine: {'line': b'-- Set runtime path of "/home/alen/Desktop/Challenge_WS/install/demo/lib/demo/lifecycle_manager" to ""\n'}
+[8.560189] (demo) StdoutLine: {'line': b'-- Installing: /home/alen/Desktop/Challenge_WS/install/demo/share/ament_index/resource_index/package_run_dependencies/demo\n'}
+[8.560458] (demo) StdoutLine: {'line': b'-- Installing: /home/alen/Desktop/Challenge_WS/install/demo/share/ament_index/resource_index/parent_prefix_path/demo\n'}
+[8.560719] (demo) StdoutLine: {'line': b'-- Installing: /home/alen/Desktop/Challenge_WS/install/demo/share/demo/environment/ament_prefix_path.sh\n'}
+[8.560886] (demo) StdoutLine: {'line': b'-- Installing: /home/alen/Desktop/Challenge_WS/install/demo/share/demo/environment/ament_prefix_path.dsv\n'}
+[8.561059] (demo) StdoutLine: {'line': b'-- Installing: /home/alen/Desktop/Challenge_WS/install/demo/share/demo/environment/path.sh\n'}
+[8.561168] (demo) StdoutLine: {'line': b'-- Installing: /home/alen/Desktop/Challenge_WS/install/demo/share/demo/environment/path.dsv\n'}
+[8.561238] (demo) StdoutLine: {'line': b'-- Installing: /home/alen/Desktop/Challenge_WS/install/demo/share/demo/local_setup.bash\n'}
+[8.561422] (demo) StdoutLine: {'line': b'-- Installing: /home/alen/Desktop/Challenge_WS/install/demo/share/demo/local_setup.sh\n'}
+[8.561602] (demo) StdoutLine: {'line': b'-- Installing: /home/alen/Desktop/Challenge_WS/install/demo/share/demo/local_setup.zsh\n'}
+[8.561775] (demo) StdoutLine: {'line': b'-- Installing: /home/alen/Desktop/Challenge_WS/install/demo/share/demo/local_setup.dsv\n'}
+[8.562211] (demo) StdoutLine: {'line': b'-- Installing: /home/alen/Desktop/Challenge_WS/install/demo/share/demo/package.dsv\n'}
+[8.562671] (demo) StdoutLine: {'line': b'-- Installing: /home/alen/Desktop/Challenge_WS/install/demo/share/ament_index/resource_index/packages/demo\n'}
+[8.563067] (demo) StdoutLine: {'line': b'-- Installing: /home/alen/Desktop/Challenge_WS/install/demo/share/demo/cmake/demoConfig.cmake\n'}
+[8.563176] (demo) StdoutLine: {'line': b'-- Installing: /home/alen/Desktop/Challenge_WS/install/demo/share/demo/cmake/demoConfig-version.cmake\n'}
+[8.563278] (demo) StdoutLine: {'line': b'-- Installing: /home/alen/Desktop/Challenge_WS/install/demo/share/demo/package.xml\n'}
+[8.565410] (demo) CommandEnded: {'returncode': 0}
+[8.582589] (demo) JobEnded: {'identifier': 'demo', 'rc': 0}
+[8.583436] (-) EventReactorShutdown: {}

@@ -1,0 +1,12 @@
+/home/alen/Desktop/Challenge_WS/build/demo/CMakeFiles/uninstall.dir
+/home/alen/Desktop/Challenge_WS/build/demo/CMakeFiles/demo_uninstall.dir
+/home/alen/Desktop/Challenge_WS/build/demo/CMakeFiles/lifecycle_publisher.dir
+/home/alen/Desktop/Challenge_WS/build/demo/CMakeFiles/lifecycle_subscriber.dir
+/home/alen/Desktop/Challenge_WS/build/demo/CMakeFiles/lifecycle_manager.dir
+/home/alen/Desktop/Challenge_WS/build/demo/CMakeFiles/test.dir
+/home/alen/Desktop/Challenge_WS/build/demo/CMakeFiles/edit_cache.dir
+/home/alen/Desktop/Challenge_WS/build/demo/CMakeFiles/rebuild_cache.dir
+/home/alen/Desktop/Challenge_WS/build/demo/CMakeFiles/list_install_components.dir
+/home/alen/Desktop/Challenge_WS/build/demo/CMakeFiles/install.dir
+/home/alen/Desktop/Challenge_WS/build/demo/CMakeFiles/install/local.dir
+/home/alen/Desktop/Challenge_WS/build/demo/CMakeFiles/install/strip.dir

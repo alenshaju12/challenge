@@ -1,0 +1,330 @@
+[0.000000] (-) TimerEvent: {}
+[0.000733] (demo) JobQueued: {'identifier': 'demo', 'dependencies': OrderedDict()}
+[0.000781] (demo) JobStarted: {'identifier': 'demo'}
+[0.007376] (demo) JobProgress: {'identifier': 'demo', 'progress': 'cmake'}
+[0.012979] (demo) JobProgress: {'identifier': 'demo', 'progress': 'build'}
+[0.014126] (demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alen/Desktop/Challenge_WS/build/demo', '--', '-j16', '-l16'], 'cwd': '/home/alen/Desktop/Challenge_WS/build/demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'alen'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alen'), ('OLDPWD', '/home/alen/Desktop/Challenge_WS/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '2253'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'alen'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'alen'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/d1:@/tmp/.ICE-unix/2222,unix/d1:/tmp/.ICE-unix/2222'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/24b9e86e_c3a1_4b95_a05e_2fce4ebf3a77'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.62TDC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.164'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/alen/Desktop/Challenge_WS/build/demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.061014] (demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lifecycle_subscriber\x1b[0m\n'}
+[0.061259] (demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lifecycle_publisher\x1b[0m\n'}
+[0.074278] (demo) StdoutLine: {'line': b'[ 33%] Built target lifecycle_manager\n'}
+[0.086741] (demo) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/lifecycle_publisher.dir/src/lifecycle_publisher.cpp.o\x1b[0m\n'}
+[0.087016] (demo) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/lifecycle_subscriber.dir/src/lifecycle_subscriber.cpp.o\x1b[0m\n'}
+[0.099831] (-) TimerEvent: {}
+[0.200128] (-) TimerEvent: {}
+[0.300550] (-) TimerEvent: {}
+[0.400908] (-) TimerEvent: {}
+[0.501300] (-) TimerEvent: {}
+[0.601672] (-) TimerEvent: {}
+[0.702057] (-) TimerEvent: {}
+[0.802463] (-) TimerEvent: {}
+[0.902800] (-) TimerEvent: {}
+[1.003108] (-) TimerEvent: {}
+[1.103457] (-) TimerEvent: {}
+[1.203786] (-) TimerEvent: {}
+[1.304186] (-) TimerEvent: {}
+[1.404577] (-) TimerEvent: {}
+[1.504941] (-) TimerEvent: {}
+[1.605309] (-) TimerEvent: {}
+[1.705685] (-) TimerEvent: {}
+[1.806079] (-) TimerEvent: {}
+[1.906483] (-) TimerEvent: {}
+[2.007170] (-) TimerEvent: {}
+[2.107593] (-) TimerEvent: {}
+[2.158112] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_subscriber.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLifecycleSubscriber::LifecycleSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.158476] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_subscriber.cpp:15:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Knamespace\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.158624] (demo) StderrLine: {'line': b'   15 |       rclcpp::NodeOptions().\x1b[01;31m\x1b[Knamespace\x1b[m\x1b[K("/demo")\n'}
+[2.158749] (demo) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.175702] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:24:4:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[2.176091] (demo) StderrLine: {'line': b'   24 |   }\n'}
+[2.176227] (demo) StderrLine: {'line': b'      |    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.176377] (demo) StderrLine: {'line': b'      |    \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.176741] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLifecyclePublisher::LifecyclePublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.176834] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:16:91:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::NodeOptions\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Knamespace_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.176899] (demo) StderrLine: {'line': b'   16 | _lifecycle::LifecycleNode("publisher",rclcpp::NodeOptions().\x1b[01;31m\x1b[Knamespace_\x1b[m\x1b[K("/demo"))LifecyclePublisher()\n'}
+[2.176957] (demo) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.177014] (demo) StderrLine: {'line': b'\n'}
+[2.177070] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:16:111:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KLifecyclePublisher\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.177139] (demo) StderrLine: {'line': b'   16 | eNode("publisher",rclcpp::NodeOptions().namespace_("/demo"))\x1b[01;31m\x1b[KLifecyclePublisher\x1b[m\x1b[K()\n'}
+[2.177196] (demo) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.177251] (demo) StderrLine: {'line': b'\n'}
+[2.177328] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.177387] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:26:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kprotected\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.177444] (demo) StderrLine: {'line': b'   26 | \x1b[01;31m\x1b[Kprotected\x1b[m\x1b[K:\n'}
+[2.177499] (demo) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.177555] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:52:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvirt-specifiers in \xe2\x80\x98\x1b[01m\x1b[Kon_activate\x1b[m\x1b[K\xe2\x80\x99 not allowed outside a class definition\n'}
+[2.177616] (demo) StderrLine: {'line': b'   52 |   CallbackReturn on_activate(const rclcpp_lifecycle::State &) \x1b[01;31m\x1b[Koverride\x1b[m\x1b[K\n'}
+[2.177673] (demo) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.177730] (demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.177787] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.177843] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.177900] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.177957] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.178014] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.178071] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.178127] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.178209] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.178281] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.178351] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:4\x1b[m\x1b[K:\n'}
+[2.178407] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KCallbackReturn on_activate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.178472] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:54:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.178534] (demo) StderrLine: {'line': b'   54 |     RCLCPP_INFO(\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Activating publisher...");\n'}
+[2.178591] (demo) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.178646] (demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[2.178708] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.178762] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.178814] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.178868] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.178922] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.178976] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.179032] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.179087] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.179142] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.179198] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.179253] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:4\x1b[m\x1b[K:\n'}
+[2.179332] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.179391] (demo) StderrLine: {'line': b'  106 |   friend Logger \x1b[01;36m\x1b[Krclcpp\x1b[m\x1b[K::get_logger(const std::string & name);\n'}
+[2.179464] (demo) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.179534] (demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.179595] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.179653] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.179709] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.179769] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.179828] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.179886] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.179945] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.180003] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.180062] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.180134] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:4\x1b[m\x1b[K:\n'}
+[2.180194] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:54:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.180254] (demo) StderrLine: {'line': b'   54 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "Activating publisher...");\n'}
+[2.180336] (demo) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.180490] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:54:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.180560] (demo) StderrLine: {'line': b'   54 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "Activating publisher...");\n'}
+[2.180621] (demo) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.180679] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:54:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.180737] (demo) StderrLine: {'line': b'   54 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "Activating publisher...");\n'}
+[2.180797] (demo) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.180855] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:55:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.180915] (demo) StderrLine: {'line': b'   55 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->on_activate();\n'}
+[2.180974] (demo) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.181034] (demo) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[2.183539] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:56:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktimer_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.183807] (demo) StderrLine: {'line': b'   56 |     \x1b[01;31m\x1b[Ktimer_\x1b[m\x1b[K->reset();\n'}
+[2.183933] (demo) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.184052] (demo) StderrLine: {'line': b'      |     \x1b[32m\x1b[Ktimer_t\x1b[m\x1b[K\n'}
+[2.184176] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.184522] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:60:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvirt-specifiers in \xe2\x80\x98\x1b[01m\x1b[Kon_deactivate\x1b[m\x1b[K\xe2\x80\x99 not allowed outside a class definition\n'}
+[2.184655] (demo) StderrLine: {'line': b'   60 |  CallbackReturn on_deactivate(const rclcpp_lifecycle::State &) \x1b[01;31m\x1b[Koverride\x1b[m\x1b[K\n'}
+[2.184719] (demo) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.184778] (demo) StderrLine: {'line': b'\n'}
+[2.184836] (demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.184896] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.184954] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.185022] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.185080] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.185140] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.185199] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.185262] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.185348] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.185407] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.185466] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:4\x1b[m\x1b[K:\n'}
+[2.185525] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KCallbackReturn on_deactivate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.185588] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:62:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.185650] (demo) StderrLine: {'line': b'   62 |     RCLCPP_INFO(\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Deactivating publisher...");\n'}
+[2.185709] (demo) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.185769] (demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[2.185828] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.185886] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.185946] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.186004] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.186072] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.186132] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.186190] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.186250] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.186331] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.186393] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.186452] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:4\x1b[m\x1b[K:\n'}
+[2.186522] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.186582] (demo) StderrLine: {'line': b'  106 |   friend Logger \x1b[01;36m\x1b[Krclcpp\x1b[m\x1b[K::get_logger(const std::string & name);\n'}
+[2.186644] (demo) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.186702] (demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.186760] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.186818] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.186885] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.186944] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.187002] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.187060] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.187126] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.187186] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.187245] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.187324] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:4\x1b[m\x1b[K:\n'}
+[2.187385] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:62:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.187445] (demo) StderrLine: {'line': b'   62 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "Deactivating publisher...");\n'}
+[2.187504] (demo) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.187564] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:62:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.187626] (demo) StderrLine: {'line': b'   62 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "Deactivating publisher...");\n'}
+[2.187684] (demo) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.187742] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:62:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.187884] (demo) StderrLine: {'line': b'   62 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "Deactivating publisher...");\n'}
+[2.187944] (demo) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.188003] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:63:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.188063] (demo) StderrLine: {'line': b'   63 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->on_deactivate();\n'}
+[2.188122] (demo) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.188194] (demo) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[2.190548] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:64:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktimer_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.190787] (demo) StderrLine: {'line': b'   64 |     \x1b[01;31m\x1b[Ktimer_\x1b[m\x1b[K->cancel();\n'}
+[2.190914] (demo) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.191037] (demo) StderrLine: {'line': b'      |     \x1b[32m\x1b[Ktimer_t\x1b[m\x1b[K\n'}
+[2.191161] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.191581] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:68:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvirt-specifiers in \xe2\x80\x98\x1b[01m\x1b[Kon_cleanup\x1b[m\x1b[K\xe2\x80\x99 not allowed outside a class definition\n'}
+[2.191755] (demo) StderrLine: {'line': b'   68 |   CallbackReturn on_cleanup(const rclcpp_lifecycle::State &) \x1b[01;31m\x1b[Koverride\x1b[m\x1b[K\n'}
+[2.191883] (demo) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.192007] (demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.192135] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.192261] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.192423] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.192547] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.192623] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.192683] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.192742] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.192801] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.192860] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.192920] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:4\x1b[m\x1b[K:\n'}
+[2.192980] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KCallbackReturn on_cleanup(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.193056] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:70:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.193116] (demo) StderrLine: {'line': b'   70 |     RCLCPP_INFO(\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Cleaning up publisher...");\n'}
+[2.193176] (demo) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.193241] (demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[2.193325] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.193389] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.193448] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.193508] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.193567] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.193626] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.193685] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.193743] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.193803] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.193861] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.193920] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:4\x1b[m\x1b[K:\n'}
+[2.193980] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.194039] (demo) StderrLine: {'line': b'  106 |   friend Logger \x1b[01;36m\x1b[Krclcpp\x1b[m\x1b[K::get_logger(const std::string & name);\n'}
+[2.194102] (demo) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.194160] (demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.194221] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.194291] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.194363] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.194432] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.194491] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.194550] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.194614] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.194675] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.194737] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.194796] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:4\x1b[m\x1b[K:\n'}
+[2.194856] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:70:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.195089] (demo) StderrLine: {'line': b'   70 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "Cleaning up publisher...");\n'}
+[2.195147] (demo) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.195203] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:70:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.195262] (demo) StderrLine: {'line': b'   70 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "Cleaning up publisher...");\n'}
+[2.195342] (demo) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.195400] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:70:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.195456] (demo) StderrLine: {'line': b'   70 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "Cleaning up publisher...");\n'}
+[2.195511] (demo) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.195568] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:71:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.195624] (demo) StderrLine: {'line': b'   71 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K.reset();\n'}
+[2.195679] (demo) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.195766] (demo) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[2.198679] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:72:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktimer_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.198896] (demo) StderrLine: {'line': b'   72 |     \x1b[01;31m\x1b[Ktimer_\x1b[m\x1b[K.reset();\n'}
+[2.198969] (demo) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.199038] (demo) StderrLine: {'line': b'      |     \x1b[32m\x1b[Ktimer_t\x1b[m\x1b[K\n'}
+[2.199105] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.199190] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:76:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvirt-specifiers in \xe2\x80\x98\x1b[01m\x1b[Kon_shutdown\x1b[m\x1b[K\xe2\x80\x99 not allowed outside a class definition\n'}
+[2.199264] (demo) StderrLine: {'line': b'   76 |   CallbackReturn on_shutdown(const rclcpp_lifecycle::State &) \x1b[01;31m\x1b[Koverride\x1b[m\x1b[K\n'}
+[2.199361] (demo) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.199651] (demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.199783] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.199956] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.200082] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.200249] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.200417] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.200545] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.200633] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.200693] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.200750] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.200808] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:4\x1b[m\x1b[K:\n'}
+[2.200874] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KCallbackReturn on_shutdown(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.200936] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:78:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.200998] (demo) StderrLine: {'line': b'   78 |     RCLCPP_INFO(\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Shutting down publisher...");\n'}
+[2.201057] (demo) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.201118] (demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[2.201177] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.201237] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.201339] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.201404] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.201462] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.201522] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.201580] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.201640] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.201697] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.201758] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.201818] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:4\x1b[m\x1b[K:\n'}
+[2.201877] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.201938] (demo) StderrLine: {'line': b'  106 |   friend Logger \x1b[01;36m\x1b[Krclcpp\x1b[m\x1b[K::get_logger(const std::string & name);\n'}
+[2.202001] (demo) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.202069] (demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.202127] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.202186] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.202249] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.202330] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.202391] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.202450] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.202518] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.202577] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.202636] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.202698] (demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:4\x1b[m\x1b[K:\n'}
+[2.202757] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:78:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.202816] (demo) StderrLine: {'line': b'   78 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "Shutting down publisher...");\n'}
+[2.202876] (demo) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.202935] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:78:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.202999] (demo) StderrLine: {'line': b'   78 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "Shutting down publisher...");\n'}
+[2.203057] (demo) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.203115] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:78:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.203180] (demo) StderrLine: {'line': b'   78 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(get_logger(), "Shutting down publisher...");\n'}
+[2.203239] (demo) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.203312] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.203379] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:82:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kprivate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.203440] (demo) StderrLine: {'line': b'   82 | \x1b[01;31m\x1b[Kprivate\x1b[m\x1b[K:\n'}
+[2.203502] (demo) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.203559] (demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_publisher.cpp:85:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.203620] (demo) StderrLine: {'line': b'   85 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[2.203688] (demo) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.207686] (-) TimerEvent: {}
+[2.308040] (-) TimerEvent: {}
+[2.408451] (-) TimerEvent: {}
+[2.508844] (-) TimerEvent: {}
+[2.585121] (demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lifecycle_publisher.dir/build.make:76: CMakeFiles/lifecycle_publisher.dir/src/lifecycle_publisher.cpp.o] Error 1\n'}
+[2.585606] (demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/lifecycle_publisher.dir/all] Error 2\n'}
+[2.585724] (demo) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.608974] (-) TimerEvent: {}
+[2.709399] (-) TimerEvent: {}
+[2.809828] (-) TimerEvent: {}
+[2.910263] (-) TimerEvent: {}
+[3.010980] (-) TimerEvent: {}
+[3.111420] (-) TimerEvent: {}
+[3.211990] (-) TimerEvent: {}
+[3.312662] (-) TimerEvent: {}
+[3.413190] (-) TimerEvent: {}
+[3.513659] (-) TimerEvent: {}
+[3.614106] (-) TimerEvent: {}
+[3.714673] (-) TimerEvent: {}
+[3.815026] (-) TimerEvent: {}
+[3.915505] (-) TimerEvent: {}
+[4.015871] (-) TimerEvent: {}
+[4.116234] (-) TimerEvent: {}
+[4.216672] (-) TimerEvent: {}
+[4.232003] (demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lifecycle_subscriber.dir/build.make:76: CMakeFiles/lifecycle_subscriber.dir/src/lifecycle_subscriber.cpp.o] Error 1\n'}
+[4.232436] (demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/lifecycle_subscriber.dir/all] Error 2\n'}
+[4.232732] (demo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.235524] (demo) CommandEnded: {'returncode': 2}
+[4.246309] (demo) JobEnded: {'identifier': 'demo', 'rc': 2}
+[4.257047] (-) EventReactorShutdown: {}

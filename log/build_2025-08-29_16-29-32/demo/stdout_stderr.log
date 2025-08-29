@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target lifecycle_manager[0m
+[ 50%] Built target lifecycle_publisher
+[ 66%] Built target lifecycle_subscriber
+[ 83%] [32mBuilding CXX object CMakeFiles/lifecycle_manager.dir/src/lifecycle_manager.cpp.o[0m
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_manager.cpp:[m[K In member function ‘[01m[Kvoid LifecycleManager::shutdown_all()[m[K’:
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_manager.cpp:92:89:[m[K [01;31m[Kerror: [m[K‘[01m[KTRANSITION_FINALIZE[m[K’ is not a member of ‘[01m[Klifecycle_msgs::msg::Transition[m[K’ {aka ‘[01m[Klifecycle_msgs::msg::Transition_<std::allocator<void> >[m[K’}
+   92 |     for (auto & node : nodes_) call_change_state(node, lifecycle_msgs::msg::Transition::[01;31m[KTRANSITION_FINALIZE[m[K);
+      |                                                                                         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_manager.cpp:[m[K In member function ‘[01m[Kvoid LifecycleManager::transition(const string&, const string&)[m[K’:
+[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_manager.cpp:106:64:[m[K [01;31m[Kerror: [m[K‘[01m[KTRANSITION_FINALIZE[m[K’ is not a member of ‘[01m[Klifecycle_msgs::msg::Transition[m[K’ {aka ‘[01m[Klifecycle_msgs::msg::Transition_<std::allocator<void> >[m[K’}
+  106 |       call_change_state(node, lifecycle_msgs::msg::Transition::[01;31m[KTRANSITION_FINALIZE[m[K);
+      |                                                                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lifecycle_manager.dir/build.make:76: CMakeFiles/lifecycle_manager.dir/src/lifecycle_manager.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/lifecycle_manager.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
