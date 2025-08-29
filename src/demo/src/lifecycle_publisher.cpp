@@ -42,7 +42,7 @@ protected:
     };
 
     timer_ = this->create_wall_timer(period, publish_msg);
-    timer_->cancel(); // Don't run yet
+    timer_->cancel(); 
 
     return CallbackReturn::SUCCESS;
   }
