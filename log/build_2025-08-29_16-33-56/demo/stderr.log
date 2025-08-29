@@ -1,7 +1,0 @@
-[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_manager.cpp:[m[K In member function ‘[01m[Kvoid LifecycleManager::force_to_shutdown_ready(const string&)[m[K’:
-[01m[K/home/alen/Desktop/Challenge_WS/src/demo/src/lifecycle_manager.cpp:117:53:[m[K [01;31m[Kerror: [m[K‘[01m[KPRIMARY_STATE_CONFIGURED[m[K’ is not a member of ‘[01m[Klifecycle_msgs::msg::State[m[K’ {aka ‘[01m[Klifecycle_msgs::msg::State_<std::allocator<void> >[m[K’}
-  117 |     } else if (state == lifecycle_msgs::msg::State::[01;31m[KPRIMARY_STATE_CONFIGURED[m[K) {
-      |                                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/lifecycle_manager.dir/build.make:76: CMakeFiles/lifecycle_manager.dir/src/lifecycle_manager.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/lifecycle_manager.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2
