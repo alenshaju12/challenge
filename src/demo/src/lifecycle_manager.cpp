@@ -96,8 +96,6 @@ private:
 void shutdown_all()
 {
   for (auto & node : nodes_) {
-    call_change_state(node, lifecycle_msgs::msg::Transition::TRANSITION_DEACTIVATE);
-    call_change_state(node, lifecycle_msgs::msg::Transition::TRANSITION_CLEANUP);
     call_change_state(node, lifecycle_msgs::msg::Transition::TRANSITION_DESTROY);
   }
 }
